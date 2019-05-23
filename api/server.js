@@ -1,5 +1,7 @@
 const express = require('express');
 
+const courses = require('../courses/courses-model')
+
 const server = express();
 
 server.use(express.json())
